@@ -36,8 +36,24 @@ section {
 }
 .menu {
     text-align: center;
+    padding: 2px;
+    list-style-type: none;
 }
 .menu li {
     list-style: none;
     margin-bottom: 10px;
+    align-items: center;
+}
+.menu li img {
+    width: 100px;
+    height: auto;
+    margin-right: 15px;
+}
+.menu li a {
+    text-decoration: none;
+    color: aqua;
+}
+.menu li {
+    border: 1px solid #fff;
+    padding: 5px;
 }
