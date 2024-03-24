@@ -1,0 +1,68 @@
+
+ 
+  @media (max-width: 768px) {
+    .header, .introduction, .skills, .contact {
+      margin: 10px auto;
+      padding: 15px;
+    }
+  }
+
+ 
+  /* Header Styling */
+.header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Introduction Section */
+  .introduction {
+    background-color: #c49898;
+    margin: 20px auto;
+    padding: 20px;
+    margin-bottom: 45px;
+    
+  }
+  
+  .intro-content {
+    display: flex; /* Make image and paragraph appear side-by-side */
+    align-items: center; /* Vertically align content within the flexbox */
+  }
+  
+  .intro-content img {
+    margin-right: 40px; /* Add spacing between image and paragraph */
+    width: 50%; /* Adjust image width if needed */
+    height: 80%;
+    
+  }
+  
+  /* Introduction Paragraph Styling */
+  .introduction p {
+    line-height: 1.5; /* Increase line spacing for better readability */
+  }
+  
+  .introduction p span:first-child {
+    color: #2980b9; /* Color for "Guys my name is"  */
+  }
+  
+  .introduction p span:nth-child(2) {
+    font-weight: bold; /* Bold for "Joseph Gichohi" */
+    font-size: larger;
+  }
+  .skills {
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  .skills li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+  }
+
+  .contact {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
